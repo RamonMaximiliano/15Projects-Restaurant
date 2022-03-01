@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <div class="header-menu">
+    <div class="header-menu" id="home">
         <h1 class="menu-title">ROASTUP</h1>
         <ul class="options">
             <li class="home">Home</li>
-            <li class="services">Services</li>
-            <li class="gallery">Gallery</li>
-            <li class="pricing">Pricing</li>
-            <li class="contact-menu">Contact</li>
+            <li class="services"><a href="#services">Services</a></li>
+            <li class="gallery"><a href="#grid-container">Gallery</a></li>
+            <li class="pricing"><a href="#ramon">Pricing</a></li>
+            <li class="contact-menu"><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <section class="welcome-picture-section">
@@ -28,7 +28,7 @@
         </div>
 
     </section>
-    <div class="main-text">
+    <div class="main-text" id="services">
         <h1 class="title">About</h1>
         <p class="mainpar">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam ipsa a vitae ut vel eius impedit
@@ -39,7 +39,7 @@
         </p>
     </div>
 
-    <div class="grid-container">
+    <div class="grid-container" id="grid-container">
         <div class="grid1"><img class="food" src="images/pexels-jonathan-borba-2878741.jpg">
             <p class="foodText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dicta magni provident
                 cumque? Tenetur esse quod officia a, aut eaque reiciendis vel deleniti fugiat, maxime ullam
@@ -82,7 +82,7 @@
     </div>
 
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="user-info">
             <h1 class="contact-us">Contact us</h1>
             <label for="name" class="name">Name</label></br>
@@ -106,7 +106,8 @@
 
 
     <footer class="footer">
-        <p>Created by Ramon</p>
+        <p id="ramon">Created by Ramon</p>
+        <a href="#home">Click here to Home</a>
     </footer>
 </body>
 
