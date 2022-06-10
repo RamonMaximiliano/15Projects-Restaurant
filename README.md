@@ -1,6 +1,6 @@
 # 15Projects-Restaurant
 
-## Html - Css - JavaScript
+## Html - Css
 
 ## Português:
 
